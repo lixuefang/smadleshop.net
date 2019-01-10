@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smadleshop.web", "smadleshop.web\smadleshop.web.csproj", "{B3C400AA-C8DC-44C2-81A8-0ABDE91929B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smadleshop.pojo", "smadleshop.pojo\smadleshop.pojo.csproj", "{0CA7491A-3391-4C73-99FB-6B111A878E94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smadleshop.dao", "smadleshop.dao\smadleshop.dao.csproj", "{1DE05294-B3C9-4FF2-ACE4-B3014118CD6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smadleshop.service.abstract", "smadleshop.service.abstract\smadleshop.service.abstract.csproj", "{8C389367-6E7D-4346-99C0-BB405CE574C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "smadleshop.service", "smadleshop.service\smadleshop.service.csproj", "{B86B1564-5EAF-49CA-B46F-5AC59CA16B49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "smadleshop.service.test", "smadleshop.service.test\smadleshop.service.test.csproj", "{044594B0-C032-450C-BC93-678AD9436D22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3C400AA-C8DC-44C2-81A8-0ABDE91929B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C400AA-C8DC-44C2-81A8-0ABDE91929B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C400AA-C8DC-44C2-81A8-0ABDE91929B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C400AA-C8DC-44C2-81A8-0ABDE91929B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA7491A-3391-4C73-99FB-6B111A878E94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA7491A-3391-4C73-99FB-6B111A878E94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA7491A-3391-4C73-99FB-6B111A878E94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA7491A-3391-4C73-99FB-6B111A878E94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE05294-B3C9-4FF2-ACE4-B3014118CD6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE05294-B3C9-4FF2-ACE4-B3014118CD6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE05294-B3C9-4FF2-ACE4-B3014118CD6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE05294-B3C9-4FF2-ACE4-B3014118CD6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C389367-6E7D-4346-99C0-BB405CE574C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C389367-6E7D-4346-99C0-BB405CE574C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C389367-6E7D-4346-99C0-BB405CE574C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C389367-6E7D-4346-99C0-BB405CE574C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86B1564-5EAF-49CA-B46F-5AC59CA16B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86B1564-5EAF-49CA-B46F-5AC59CA16B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86B1564-5EAF-49CA-B46F-5AC59CA16B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86B1564-5EAF-49CA-B46F-5AC59CA16B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044594B0-C032-450C-BC93-678AD9436D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044594B0-C032-450C-BC93-678AD9436D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044594B0-C032-450C-BC93-678AD9436D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044594B0-C032-450C-BC93-678AD9436D22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63EC11F1-370F-44F5-9166-D15BA9CC2F03}
+	EndGlobalSection
+EndGlobal
