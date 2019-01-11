@@ -13,5 +13,13 @@ namespace smadleshop.pojo
         public bool IsDel { get; set; }
         [Column(TypeName = "bit")]
         public bool IsEnabled { get; set; }
+
+        public String MobilePhone { get; set; }
+        public int Score { get; set; }
+        public String UserType { get; set; }
+        public int IntroducerId { get; set; }
+        public DateTime LastLoginTime { get; set; }
     }
 }
+
+
