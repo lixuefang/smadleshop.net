@@ -1,0 +1,145 @@
+﻿{
+  "roleName": "",
+  "menuList": [
+    {
+      "icon": "el-icon-lx-home",
+      "index": "dashboard",
+      "label": "系统首页"
+    },
+    {
+      "icon": "el-icon-lx-cascades",
+      "index": "3",
+      "label": "系统管理",
+      "children": [
+        {
+          "index": "role",
+          "label": "角色管理",
+          "buttons": [
+            {
+              "name": "role_add",
+              "value": "新增"
+            },
+            {
+              "name": "role_edit",
+              "value": "编辑"
+            },
+            {
+              "name": "role_del",
+              "value": "删除"
+            }
+          ]
+        },
+        {
+          "index": "user",
+          "label": "用户管理"
+        },
+        {
+          "index": "set",
+          "label": "系统设置"
+        }
+      ]
+    },
+    {
+      "icon": "el-icon-lx-calendar",
+      "index": "4",
+      "label": "网站管理",
+      "children": [
+        {
+          "index": "siteUser",
+          "label": "用户管理"
+        },
+        {
+          "index": "contactUs",
+          "label": "留言管理"
+        },
+        {
+          "index": "question",
+          "label": "问题管理"
+        },
+        {
+          "index": "resource",
+          "label": "资源"
+        }
+      ]
+    },
+    {
+      "icon": "el-icon-lx-cascades",
+      "index": "table",
+      "label": "基础表格"
+    },
+    {
+      "icon": "el-icon-lx-copy",
+      "index": "tabs",
+      "label": "tab选项卡"
+    },
+    {
+      "icon": "el-icon-lx-calendar",
+      "index": "5",
+      "label": "表单相关",
+      "children": [
+        {
+          "index": "form",
+          "label": "基本表单"
+        },
+        {
+          "index": "3-2",
+          "label": "三级菜单",
+          "children": [
+            {
+              "index": "editor",
+              "label": "富文本编辑器"
+            },
+            {
+              "index": "markdown",
+              "label": "markdown编辑器"
+            }
+          ]
+        },
+        {
+          "index": "upload",
+          "label": "文件上传"
+        }
+      ]
+    },
+    {
+      "icon": "el-icon-lx-emoji",
+      "index": "icon",
+      "label": "自定义图标"
+    },
+    {
+      "icon": "el-icon-lx-favor",
+      "index": "charts",
+      "label": "schart图表"
+    },
+    {
+      "icon": "el-icon-rank",
+      "index": "6",
+      "label": "拖拽组件",
+      "children": [
+        {
+          "index": "drag",
+          "label": "拖拽列表"
+        },
+        {
+          "index": "dialog",
+          "label": "拖拽弹框"
+        }
+      ]
+    },
+    {
+      "icon": "el-icon-lx-warn",
+      "index": "7",
+      "label": "错误处理",
+      "children": [
+        {
+          "index": "permission",
+          "label": "权限测试"
+        },
+        {
+          "index": "404",
+          "label": "404页面"
+        }
+      ]
+    }
+  ]
+}
