@@ -1,0 +1,87 @@
+﻿{
+  "recondCount": 10,
+  "list": [
+    {
+      "roleName": "管理员",
+      "loginName": "lingli",
+      "date": "1997-11-11",
+      "realName": "林丽",
+      "mobilePhone": "13315152664",
+      "state": "启用",
+      "address": "吉林省 辽源市 龙山区"
+    },
+    {
+      "roleName": "总经理",
+      "loginName": "wenming",
+      "date": "1987-09-24",
+      "mobilePhone": "13326485555",
+      "realName": "文敏",
+      "state": "启用",
+      "address": "江西省 萍乡市 芦溪县"
+    },
+    {
+      "loginName": "lingli",
+      "date": "1996-08-08",
+      "realName": "杨秀兰",
+      "mobilePhone": "17715152664",
+      "state": "禁用",
+      "address": "黑龙江省 黑河市 五大连池市"
+    },
+    {
+      "loginName": "weiqiang",
+      "date": "1978-06-18",
+      "realName": "魏强",
+      "mobilePhone": "18915152664",
+      "state": "启用",
+      "address": "广东省 韶关市 始兴县"
+    },
+    {
+      "loginName": "shixiulan",
+      "date": "1977-07-09",
+      "realName": "石秀兰",
+      "mobilePhone": "19515152664",
+      "state": "启用",
+      "address": "江苏省 宿迁市 宿豫区"
+    },
+    {
+      "loginName": "zhuyang",
+      "date": "1994-09-20",
+      "realName": "朱洋",
+      "mobilePhone": "17815152664",
+      "state": "启用",
+      "address": "海外 海外 -"
+    },
+    {
+      "loginName": "fuming",
+      "date": "1980-01-22",
+      "realName": "傅敏",
+      "mobilePhone": "17812152634",
+      "state": "启用",
+      "address": "海外 海外 -"
+    },
+    {
+      "loginName": "maoming",
+      "date": "1985-10-10",
+      "realName": "毛明",
+      "mobilePhone": "13812152634",
+      "state": "启用",
+      "address": "内蒙古自治区 包头市 九原区"
+    },
+    {
+      "loginName": "hejing",
+      "date": "1975-09-08",
+      "realName": "何静",
+      "mobilePhone": "13412152634",
+      "state": "启用",
+      "address": "西藏自治区 阿里地区 普兰县"
+    },
+    {
+      "loginName": "guoxiuying",
+      "date": "1970-06-07",
+      "realName": "郭秀英",
+      "mobilePhone": "13714152234",
+      "state": "启用",
+      "address": "四川省 巴中市 恩阳区"
+    }
+  ]
+}

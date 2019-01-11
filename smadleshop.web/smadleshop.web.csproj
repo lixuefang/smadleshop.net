@@ -2224,6 +2224,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16989,6 +16990,11 @@
     <None Include="wwwroot\vue-manage-system\node_modules\yorkie\src\utils\get-hook-script.js" />
     <None Include="wwwroot\vue-manage-system\node_modules\yorkie\src\utils\is.js" />
     <None Include="wwwroot\vue-manage-system\node_modules\yorkie\__tests__\index.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\smadleshop.dao\smadleshop.dao.csproj" />
+    <ProjectReference Include="..\smadleshop.pojo\smadleshop.pojo.csproj" />
   </ItemGroup>
 
   <ItemGroup>

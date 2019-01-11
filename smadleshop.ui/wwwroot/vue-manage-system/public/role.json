@@ -1,0 +1,105 @@
+﻿{
+  "list": [
+    {
+      "id": 1,
+      "roleName": "管理员",
+      "menuList": [
+        {
+          "index": "dashboard",
+          "label": "系统首页",
+          "checked": true
+        },
+        {
+          "index": "3",
+          "label": "系统管理",
+          "checked": true,
+          "children": [
+            {
+              "index": "role",
+              "label": "角色管理",
+              "checked": true,
+              "buttons": [
+                {
+                  "name": "role_add",
+                  "value": "新增",
+                  "checked": true
+                },
+                {
+                  "name": "role_edit",
+                  "value": "编辑",
+                  "checked": true
+                },
+                {
+                  "name": "role_del",
+                  "value": "删除",
+                  "checked": false
+                }
+              ]
+            },
+            {
+              "index": "user",
+              "label": "用户管理",
+              "checked": true
+            },
+            {
+              "index": "set",
+              "label": "系统设置",
+              "checked": true
+            }
+          ]
+        },
+        {
+          "index": "4",
+          "label": "网站管理",
+          "checked": true,
+          "children": [
+            {
+              "index": "siteUser",
+              "label": "用户管理",
+              "checked": true
+            },
+            {
+              "index": "contactUs",
+              "label": "留言管理",
+              "checked": true
+            },
+            {
+              "index": "question",
+              "label": "问题管理",
+              "checked": true
+            },
+            {
+              "index": "resource",
+              "label": "资源",
+              "checked": true
+            }
+          ]
+        },
+        {
+          "index": "table",
+          "label": "基础表格",
+          "checked": true
+        }
+      ],
+      "checkedMenu": [ "dashboard","role"]
+    },
+    {
+      "id": 2,
+      "roleName": "总经理",
+      "menuList": [
+        {
+          "menu": "dashboard"
+        },
+        { "menu": "3" },
+        {
+          "menu": "role",
+          "button": {
+            "role_add": false,
+            "role_edit": false,
+            "role_del": false
+          }
+        }
+      ]
+    }
+  ]
+}
